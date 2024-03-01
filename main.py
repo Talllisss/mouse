@@ -42,5 +42,7 @@ while running:
             sprite.rect.y = y
             screen.fill('black')
             all_sprites.draw(screen)
+        else:
+            screen.fill('black')
     pygame.display.flip()
 pygame.quit()
